@@ -1,0 +1,29 @@
+@import url("reset.css");
+
+.title {
+    color: rgb(254, 46, 46);
+}
+.title2 {
+    color: blueviolet;
+}
+.subtitle {
+    color: green;
+}
+[class*="tex"] {
+    color: magenta;
+}
+.link {
+    color: blue;
+}
+.item {
+    color: orange;
+}
+.title3 {
+    color: rgb(0, 189, 180);
+}
+footer {
+    color: blue;
+}
+#addition {
+    color: brown;
+}
