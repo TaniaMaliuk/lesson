@@ -1,0 +1,176 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lobster:regular");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+.header {
+    font-family:"Lobster", fantasy;
+    color: rgb(1, 86, 106);
+    font-size: 50px;
+    letter-spacing: 10px;
+    word-spacing: 3px;
+    text-align: center;
+    white-space: nowrap;
+}
+header a {
+    color: rgb(106, 0, 255);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.text {
+    background-color: darkkhaki;
+    padding: 10px
+}
+.text1 { 
+    background-color: cadetblue;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    height: 70px;
+}
+.text2 {background-color: coral;
+    padding-block: 40px;
+    padding-inline: 30px;
+    width: 150px;
+}
+.text3 {
+    background-color: blanchedalmond;
+    /* padding-left: 50px; */
+    padding-block-start: 50px;
+    padding-block-end: 60px;
+}
+.text4 {
+    background-color: blueviolet;
+    padding-inline-start: 40px;
+    padding-inline-end: 50px;
+    min-height: 50px;
+    max-height: 100px;
+    overflow-x: scroll;
+    
+}
+.img {
+    background-color: aquamarine;
+    inline-size: 700px;
+    block-size: 500px;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img1 {
+    margin: 5% 90% -30% 35%;
+}
+.img2 {
+    margin-top: -200px;
+    margin-bottom: 40px;
+    margin-left: 350px;
+    margin-right: 0px;
+}
+.img3 {
+    margin-block: -400px;
+    margin-inline: 160px;
+}
+
+
+.screen2 {
+    width: 100%;
+    margin-top: 80px;
+}
+.page{
+    max-width: 539px;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+.page-title{
+    width: 100%;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 132%;
+    letter-spacing: 0.02em;
+    color:  #091133;
+    margin-bottom: 20px;
+}
+.page-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: #505f98;
+    margin-bottom: 69px;
+}
+.button1, .button2{
+    display: inline-block;   
+    width: 189px;
+     color: #fff;
+    background: #111b47;
+    padding-block: 5px;
+    margin-right: 30px;
+}
+.page-button a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    width: 100%;
+}
+.screen3 {
+    width: 100%;
+    margin-top: 80px;
+    font-family: "Roboto",  sans-serif;
+}
+.block {
+    max-width: 520px;
+    margin: 0 auto;
+}
+.block-top{
+    width: 100%;
+    margin-bottom: 70px;
+}
+.block-title{
+    width: 100%;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 133%;
+    color: #091133;
+    margin-bottom: 16px;
+}
+.block-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #6f7cb2;
+}
+.items{
+    margin-left: -15px;
+    margin-right: -15px;
+     font-size: 0;
+}
+.item{
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.content{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.content img{
+    max-width: 36px;
+    margin-bottom: 14px;
+}
+.content h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    color: #091133;
+    margin-bottom: 6px;
+}
+.content p{
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+color: #5d6970;
+}
