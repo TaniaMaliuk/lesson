@@ -70,7 +70,7 @@ h1 {
 	line-height: 200%; 
 	color: #391400;
 }
-.block1 li::before{
+.dot li::before{
 	content: " ";
 	background-color: #EF6D58;
 	width: 8px;
@@ -153,7 +153,6 @@ h1 {
 	height: 36px;
 	margin-right: 14px;
 	margin-left: 13px;
-	transform: all 0,3s;
 	background: url("../img/check-circle.png") 0 0/36px no-repeat
 }
 
