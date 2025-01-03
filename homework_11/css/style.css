@@ -118,6 +118,7 @@ body {
 	width: 100px;
 	height: 50px;
 	transform: skew(15deg);
+	background-color: yellow;
 }
 .figure__item--trapezoid {
 	width: 100px;
@@ -145,9 +146,11 @@ body {
 .transform__item--translate {
 	transform: translate( 0px, 0px);
 }
+
 .transform__item--translate:hover{
 	transform: translate( 20px, 10px);
 }
+
 .transform__item--scale {
 	transform: scale(1, 1);
 }
