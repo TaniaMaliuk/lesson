@@ -60,11 +60,6 @@ body {
 }
 .figure:hover {
 	background-color:rgb(38, 77, 249);
-
-}
-.figure__item:not([class*="triangle"]){
-	background-color:yellow;
-
 }
 
 .figure__item--square {
