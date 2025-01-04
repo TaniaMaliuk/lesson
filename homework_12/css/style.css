@@ -20,7 +20,10 @@ body {
 	overflow: clip; /* clip */
 	/* ... */
 }
-
+[class*="__container"] {
+	/* max-width: 1140px; */
+	margin: 0 auto;
+}
 
 /* ------------------- */
 
