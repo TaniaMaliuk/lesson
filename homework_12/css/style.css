@@ -21,10 +21,8 @@ body {
 	/* ... */
 }
 [class*="__container"] {
-	/* max-width: 1140px; */
-	width: 100%;
 	margin: 0 auto;
-
+	width: 100%;
 }
 
 /* ------------------- */
@@ -40,16 +38,14 @@ body {
 	font-size: 24px;
 	font-weight: 500;
 }
-.page__container{
-	position: relative;
-	width: 100%;
-	bottom: 0;
-}
+
+
 .sky { 
-	position:absolute;
+	position:relative;
 	top: 0;
 	width: 100%;
-	height: 1000px;
+	height:900px;
+	/* min-height: 100%; */
 	background-color: rgb(139, 226, 255);
 }
 .sea{
