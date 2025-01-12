@@ -224,6 +224,7 @@ body {
 }
 .heading {
 	text-align: center;
+	padding: 30px;
 }
 .heading__subtitle {
 	color: #EF6D58;
@@ -506,7 +507,7 @@ body {
 	height: 30px;
 	flex-basis: 30px;
 }
-.cart__line {
+.card__line {
 	width: 290px;
 	height: 1px;
 	background: #3A3C56;
@@ -548,7 +549,10 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	gap: 20px;
+	justify-content: space-around;
 }
+
+
 .team__card {
 	display: flex;
 	flex-direction: column;
@@ -606,6 +610,7 @@ body {
 	flex-direction: row;
 	gap: 130px;
 	align-items: center;
+	justify-content: space-around;
 	
 }
 .founder__img {
@@ -619,6 +624,7 @@ body {
 	flex-direction: column;
 	flex-shrink: 1;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	
 }
 
