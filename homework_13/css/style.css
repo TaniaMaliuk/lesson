@@ -640,16 +640,16 @@ body {
 	font-size: 40px;
 	font-weight: 800;
 }
-.heading__discription {
+.founder__discription {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
-.heading__name {
+.founder__name {
 	font-size: 20px;
 	font-weight: 400;
 }
-.heading__position {
+.founder__position {
 	font-size: 16px;
 	font-weight: 400;
 	color: rgba(255, 255, 255, 0.64);
