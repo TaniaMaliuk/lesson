@@ -274,11 +274,11 @@ body {
 	position: relative;
 	bottom: 0;
 }
-.img-box:nth-child(1,4) {
+.img-box:nth-child(1 4) {
 	max-width: 670px;
 }
 
-.img-box:nth-child(2,3) {
+.img-box:nth-child(2 3) {
 	max-width: 470px;
 }
 
