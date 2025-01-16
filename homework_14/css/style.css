@@ -59,6 +59,9 @@ body {
 	border-radius: 5px;
 	border: solid rgb(183, 183, 183) 1px;
 }
+.select {
+	margin-bottom: 50px;
+}
 
 /* ---------- */
 

@@ -39,19 +39,19 @@
 						</div>
 						<div>
 							<label for="input-05">Number</label>
-							<input name="form[]" placeholder="Введіть число" type="number" class="form-color">
+							<input id="input-05" name="form[]" placeholder="Введіть число" type="number" class="form-color">
 						</div>
 						<div>
-							<label for="#">Search</label>
-							<input name="form[]" placeholder="що шукаємо?" type="search" class="form-color">
+							<label for="input-06">Search</label>
+							<input id="input-06" name="form[]" placeholder="що шукаємо?" type="search" class="form-color">
 						</div>
 						<div>
-							<label for="#">Date</label>
-							<input name="form[]" type="date" class="form-color">
+							<label for="input-07">Date</label>
+							<input id="input-07" name="form[]" type="date" class="form-color">
 						</div>
 						<div>
-							<label for="#">Range</label>
-							<input name="form[]" value="0" class="form-color" type="range">
+							<label for="input-08">Range</label>
+							<input id="input-08" name="form[]" value="0" class="form-color" type="range">
 						</div>
 						<div>
 							<label for="#">Checkbox</label>
@@ -87,9 +87,9 @@
 							<label for="#">File</label>
 							<input multiple accept=".jpg, .png" id="file" name="form[]" type="file">
 						</div>
-						<div>
+						<div class="select">
 							<label for="#">Dropdown list</label>
-							<select name="form[select]"></select>
+							<select name="form[select]">
 								<option>Пункт №1</option>
 								<option selected>Пункт №2</option>
 								<option value="03">Пункт №3</option>
@@ -152,8 +152,8 @@
 						</div>
 						<div class="form-stream__box-2">
 							<div class="form-stream__agree">
-								<input class="form-stream__checkbox" checked id="check" name="form[]" type="checkbox">
-								<label class="form-stream__input" for="check">I agree with Terms of Use and Privacy Policy</label>
+								<input class="form-stream__checkbox" checked id="checkbox" name="form[]" type="checkbox">
+								<label class="form-stream__input" for="checkbox">I agree with Terms of Use and Privacy Policy</label>
 							</div>
 							<div class="form-stream__agree">
 									<button type="submit" class="form-stream__button">Send Message</button>
