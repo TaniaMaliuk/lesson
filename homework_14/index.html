@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!-- Коди мов https://html-css.co.ua/html/lang-kodu-mov/ -->
+<html lang="en">
+	<head>
+		<!-- Кодування тексту -->
+		<meta charset="UTF-8">
+		<!-- Налаштування в'юпорту (адаптиву, масштабу тощо) -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Підключення окремого файлу стилів -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Заголовок сторінки в браузері -->
+		<title>homework_14</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<h1 class="title">HOMEWORK-14</h1>
+				</div>
+			</header>
+			<main class="page">
+				<div class="page__container">
+					<form enctype="multipart/form-data" action="#">
+						<div>
+							<label for="input-01">Name</label>
+							<input id="input-01" placeholder="Введіть своє і'мя" name="form[]" type="text" class="form-color">
+						</div>
+						<div>
+							<label for="input-02">Email</label>
+							<input id="input-02" required name="form[]" placeholder="Введіть свій email" class="form-color" type="email">
+						</div>
+						<div>
+							<label for="input-03">Phone nomer</label>
+							<input id="input-03" name="form[]" placeholder="Введіть свій номер телефону" type="tel" class="form-color">
+						</div>
+						<div>
+							<label for="input-04">Password</label>
+							<input id="input-04" type="password" name="form[]" placeholder="Введіть свій пароль" class="form-color">
+						</div>
+						<div>
+							<label for="input-05">Number</label>
+							<input name="form[]" placeholder="Введіть число" type="number" class="form-color">
+						</div>
+						<div>
+							<label for="#">Search</label>
+							<input name="form[]" placeholder="що шукаємо?" type="search" class="form-color">
+						</div>
+						<div>
+							<label for="#">Date</label>
+							<input name="form[]" type="date" class="form-color">
+						</div>
+						<div>
+							<label for="#">Range</label>
+							<input name="form[]" value="0" class="form-color" type="range">
+						</div>
+						<div>
+							<label for="#">Checkbox</label>
+							<div class=" checkbox">
+								<input class="checkbox__input" checked id="check" name="form[]" type="checkbox">
+								<label class="checkbox__label" for="check">ні</label>
+							</div>
+							<div class=" checkbox">
+								<input class="checkbox__input" id="check-2" name="form[]" type="checkbox">
+								<label class="checkbox__label" for="check-2">так</label>
+							</div>
+						</div>
+						<div>
+							<label for="#">Radio button</label>
+
+							<fieldset class="group">
+								<legend class="group__title">Улюблена марка авто</legend>
+								<div class="group__radio">
+									<input checked id="model-01" name="model" value="Mercedes" type="radio">
+									<label for="model-01">Mercedes</label>
+								</div>
+								<div class="group__radio">
+									<input id="model-02" name="model" value="BMW" type="radio">
+									<label for="model-02">BMW</label>
+								</div>
+								<div class="group__radio">
+									<input id="model-03" name="model" value="Skoda" type="radio">
+									<label for="model-03">Skoda</label>
+								</div>
+							</fieldset>
+						</div>
+						<div>
+							<label for="#">File</label>
+							<input multiple accept=".jpg, .png" id="file" name="form[]" type="file">
+						</div>
+						<div>
+							<label for="#">Dropdown list</label>
+							<select name="form[select]"></select>
+								<option>Пункт №1</option>
+								<option selected>Пункт №2</option>
+								<option value="03">Пункт №3</option>
+								<option value="04">Пункт №4</option>
+							</select>
+						</div>
+					</form>
+					
+					<h2 class="title">Hometask</h2>
+					<form action="#" class="form">
+						<div class="form__flex">
+							<div class="form__box">
+								<label class="form__text" for="#">There are many variations of passages of Lorem Ipsu available
+								but the majority have suffered alte.
+								</label>
+							</div>
+							<div class="form__box">
+								<input  placeholder="Name*" name="form[]" type="text" class="form__style">
+							</div>
+							<div class="form__box">
+								<input required name="form[]" placeholder="Email*" class="form__style" type="email">
+							</div>
+							<div class="form__box">
+								<input  placeholder="Location" name="form[]" type="text" class="form__style">
+							</div>
+							<div class="form__united">
+								<div class="form__short"><input name="form[]" placeholder="Budget*" type="number" class="form__style "></div>
+								<div class="form__short"><input  placeholder="Subject*" name="form[]" type="text" class="form__style "></div>
+							</div>
+							<div class="form__box">
+								<textarea class="form__style" placeholder="Message*"></textarea>
+							</div>
+							<div class="form__box">
+								<button type="submit" class="form__button">submit</button>
+							</div>
+						</div>
+					</form>
+					<form action="#" class="form-stream">
+						<div class="form-stream__box-1">
+							<div class="form-stream__info">
+								<label for="first-name" class="form-stream__lable">First Name</label >
+								<input id="first-info" placeholder="Enter First Name" name="form[]" type="text" class="form-stream__style">
+							</div>
+							<div class="form-stream__info">
+								<label for="last-name" class="form-stream__lable">Last Name</label>
+								<input id="last-name" placeholder="Enter Last Name" name="form[]" type="text" class="form-stream__style">
+							</div>
+							<div class="form-stream__info">
+								<label for="email" class="form-stream__lable">Email</label>
+								<input id="email" required name="form[]" placeholder="Enter your Email" class="form-stream__style" type="email">
+							</div>
+							<div class="form-stream__info">
+								<label for="phone-number" class="form-stream__lable">Phone Number</label>
+								<input id="phone-number" name="form[]" placeholder="Enter Phone Number" type="tel" class="form-stream__style">
+							</div>
+							<div class="form-stream__info">
+								<label for="message" class="form-stream__lable">Message</label>
+								<textarea name="text" id="message" placeholder="Enter your Message" class="form-stream__style"></textarea>
+							</div>
+						</div>
+						<div class="form-stream__box-2">
+							<div class="form-stream__agree">
+								<input class="form-stream__checkbox" checked id="check" name="form[]" type="checkbox">
+								<label class="form-stream__input" for="check">I agree with Terms of Use and Privacy Policy</label>
+							</div>
+							<div class="form-stream__agree">
+									<button type="submit" class="form-stream__button">Send Message</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<h2 class="title">FORM</h2>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

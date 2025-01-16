@@ -1,0 +1,250 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap"); */
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
+@import url("https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800");
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	font-family: "Gilroy", sans-serif;
+	background-color: #ffffff;
+	color: #302f2f;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: clip; /* clip */
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+[class*="__container"] {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding-inline: 15px;
+	/* 
+	padding-left: 15px;
+	padding-right: 15px;
+	*/
+}
+.page {
+	padding: 30px;
+}
+[class*="--margin"] {
+	margin-bottom: 50px;
+}
+
+/* --------------------- */
+.title {
+	background-color: aquamarine;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	padding: 15px;
+	color: black;
+	margin-bottom: 50px;
+}
+
+.form-color {
+	border-radius: 5px;
+	border: solid rgb(183, 183, 183) 1px;
+}
+
+/* ---------- */
+
+
+.form {
+	box-shadow: 0px 59px 124px 0px rgba(0, 0, 0, 0.12);
+	font-family: "Work Sans", sans-serif;
+	font-size: 18px;
+	line-height: 133%;
+	padding: 84px;
+	border-radius: 15px;
+	margin-bottom: 70px;
+}
+.form__flex {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+
+}
+.form__style { 
+	border-bottom: 1.5px solid #e6e8eb;
+	padding-bottom: 14px;
+
+}
+.form__text {
+	font-size: 18px;
+	font-weight: 400;
+	color: var(--Gray-400, #87909D);
+}
+
+.form__style:focus-visible {
+	outline: none;
+	border-bottom: 1.5px solid #a53dff;
+}
+
+.form__united {
+	display: flex;
+	flex-direction: row;
+	gap: 14px;
+	flex-wrap: wrap;
+}
+.form__short {
+	flex-basis: 260px;
+	flex-shrink: 1;
+	flex-grow: 1;
+}
+.form__button {
+	display: inline-flex;
+	align-self: center;
+	background-color: #a53dff;
+	border-radius: 4px;
+	color: #fff;
+	gap: 12px;
+	padding: 12px 24px;
+}
+.form__button::after {
+	display: flex;
+	content: "";
+	background: url(../img/form-vector.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 24px;
+	height: 24px;
+  }
+.form__button:hover {
+	background-color: #8b14f3;
+}
+
+.form-stream {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	border-radius: 10px;
+	border: 1px solid var(--Black-15, #262626);
+	background: var(--Black-06, #0F0F0F);
+	font-family: "Manrope", sans-serif;	
+	padding: 80px;
+}
+.form-stream__box-1 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 40px;
+}
+
+.form-stream__style {
+	padding: 16px;
+	border-radius: 6px;
+	border: 1px solid var(--Black-15, #262626);
+	background: var(--Black-08, #141414);
+	font-size: 14px;
+	font-weight: 400;
+}
+.form-stream__lable {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 150%;
+	color: #fff;
+	margin-bottom: 12px;
+}
+.form-stream__info {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 360px;
+}
+
+.form-stream__box-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 40px;
+
+}
+.form-stream__input {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	align-items: center;
+	font-weight: 400;
+	color:#999;
+}
+.form-stream__checkbox {
+	appearance: none;
+}
+
+.form-stream__checkbox:focus-visible + .form-stream__input {
+	outline: 1px solid #fff;
+}
+.form-stream__checkbox:checked + .form-stream__input::before {
+	background: url("../img/dark-check.svg") 0 0 / 100% no-repeat;
+}
+.form-stream__input::before {
+	content: "";
+	width: 24px;
+	height: 24px;
+	border: 1px solid #262626;
+}
+.form-stream__button {
+	display: inline-flex;
+	padding: 14px;
+	background-color:#E50000 ;
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #FFF;
+}
+.form-stream__button:hover {
+	background-color:#b10101 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
